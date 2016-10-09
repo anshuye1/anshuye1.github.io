@@ -153,5 +153,49 @@ $(function(){
     /////////////////////////////////////////////contact
     $('.callBtn').on('click',function(){
         $('.call a').toggleClass('active');
+    });
+    ////////////////////////////////////
+    var H=$('body').scrollTop();
+    console.log(H);
+    if(H>660){
+        $('.nr-inner a').css('color','#fff');
+        $('.nr-inner').eq(0).css('color','yellow')
+    }
+    if(H>660*2){
+        $('.nr-inner a').css('color','#fff');
+        $('.nr-inner').eq(1).css('color','yellow')
+    }
+    if(H>660*3){
+        $('.nr-inner a').css('color','#fff');
+        $('.nr-inner').eq(2).css('color','yellow')
+    }
+    if(H>660*4){
+        $('.nr-inner a').css('color','#fff');
+        $('.nr-inner').eq(3).css('color','yellow')
+    }
+    if(H>660*5){
+        $('.nr-inner a').css('color','#fff');
+        $('.nr-inner').eq(4).css('color','yellow')
+    }
+    // for(var i=0;i<5;i++){
+    //     $('.nr-inner a').eq(i).on('click',function(){
+    //         $('body').scrollTop(i*660);
+    //     })
+    // }
+    $('.nr-inner a').eq(0).on('click',function(){
+        $('body').scrollTop(0*660);
+    });
+    $('.nr-inner a').eq(1).on('click',function(){
+        $('body').scrollTop(1*660);
+    });
+    $('.nr-inner a').eq(2).on('click',function(){
+        $('body').scrollTop(2*660);
+    });
+    $('.nr-inner a').eq(3).on('click',function(){
+        $('body').scrollTop(3*660);
+    });
+    $('.nr-inner a').eq(4).on('click',function(){
+        $('body').scrollTop(4*660);
     })
+
 });
