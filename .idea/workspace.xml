@@ -2,103 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38de6152-cfc7-43a8-b526-5ca070f5a77b" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/classes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-in-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-in-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-in-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-in-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-out-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-out-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-out-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-out-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-x.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/elastic-y.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/extrusion.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-in-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-in-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-in-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-in-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-out-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-out-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-out-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-out-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/fade-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flash.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flip-in-x.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flip-in-y.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flip-out-x.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flip-out-y.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/flip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/hinge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/pulse.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/roll-in-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/roll-in-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/roll-out-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/roll-out-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-in-down-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-in-down-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-in-up-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-in-up-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-out-down-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-out-down-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-out-up-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-out-up-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/shake.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/sling.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/speed-in-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/speed-in-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/speed-out-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/speed-out-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/stretch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/swing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/wobble.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-in-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-in-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-in-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-in-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-out-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-out-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-out-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-out-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/YO/zoom-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lx1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lx2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ren.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/shengzi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/xingqiu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jQuery.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage" afterPath="$PROJECT_DIR$/homepage" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/css/index.scss" afterPath="$PROJECT_DIR$/homepage/css/index.scss" />
     </list>
     <ignored path="作品.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,29 +27,34 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="119" column="85" selection-start-line="119" selection-start-column="85" selection-end-line="119" selection-end-column="85" />
+            <state relative-caret-position="164">
+              <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="334">
+              <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="902" column="3" selection-start-line="902" selection-start-column="3" selection-end-line="902" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="402">
+              <caret line="998" column="27" selection-start-line="998" selection-start-column="27" selection-end-line="998" selection-end-column="27" />
+              <folding>
+                <element signature="e#813#2823#0" expanded="false" />
+                <element signature="e#3336#5345#0" expanded="false" />
+                <element signature="e#5393#7610#0" expanded="false" />
+                <element signature="e#14989#17507#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,9 +74,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/homepage/css/mains.scss" />
-        <option value="$PROJECT_DIR$/homepage/js/index.js" />
         <option value="$PROJECT_DIR$/homepage/index.html" />
         <option value="$PROJECT_DIR$/homepage/css/index.scss" />
+        <option value="$PROJECT_DIR$/homepage/js/index.js" />
       </list>
     </option>
   </component>
@@ -292,31 +202,31 @@
       <workItem from="1476002838684" duration="1184000" />
       <workItem from="1476004242461" duration="42000" />
       <workItem from="1476020523462" duration="4047000" />
-      <workItem from="1476025213791" duration="4181000" />
+      <workItem from="1476025213791" duration="7915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118251000" />
+    <option name="totallyTimeSpent" value="121985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="1" width="1378" height="743" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="1" width="1378" height="743" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06865671" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -411,26 +321,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="119" column="85" selection-start-line="119" selection-start-column="85" selection-end-line="119" selection-end-column="85" />
+        <state relative-caret-position="164">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="902" column="3" selection-start-line="902" selection-start-column="3" selection-end-line="902" selection-end-column="3" />
+        <state relative-caret-position="402">
+          <caret line="998" column="27" selection-start-line="998" selection-start-column="27" selection-end-line="998" selection-end-column="27" />
+          <folding>
+            <element signature="e#813#2823#0" expanded="false" />
+            <element signature="e#3336#5345#0" expanded="false" />
+            <element signature="e#5393#7610#0" expanded="false" />
+            <element signature="e#14989#17507#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
           <folding />
         </state>
       </provider>
