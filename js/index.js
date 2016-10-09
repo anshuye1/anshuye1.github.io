@@ -1,6 +1,4 @@
 $(function(){
-    $('.light-box').height($(window).height());
-    $('.nr-box').height($(window).height());
     var light=$('.light');
     var speedX=3;
     var speedY=3;
@@ -32,10 +30,10 @@ $(function(){
                     'width':'100%',
                     'height':'100%',
                     'border-radius':'0',
+                    'box-sizing':'border-box',
                     'left':0,
                     'top':0,
-                    'box-shadow':'0 0 0 0',
-                    'background':'url(img/bg3.jpg) no-repeat center center'
+                    'box-shadow':'0 0 0 0'
                 });
             },3000)
         },9000);
@@ -122,6 +120,19 @@ $(function(){
         designMove();
     });
     $('.btn .left').on('click',function(){
+        next--;
+        if(next<0){next=design.length-1;}
+        design.eq(next).css('left',2*designW);
+        design.eq(index).animate({'left':0*designW},1000);
+        design.eq(next).animate({'left':1*designW},1000);
+        $(design.eq(next).children('a')).addClass('active');
+        $(design.eq(index).children('a')).removeClass('active');
+        index=next;
+    });
+    $('.shade-r').on('click',function(){
+        designMove();
+    });
+    $('.shade').on('click',function(){
         next--;
         if(next<0){next=design.length-1;}
         design.eq(next).css('left',2*designW);

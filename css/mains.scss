@@ -27,7 +27,7 @@ $m-size:1190px;
     @content;
   }
 }
-$s-size:736px;
+$s-size:206px;
 @mixin ons{
   @media screen and (max-width:$s-size){
     @content;
