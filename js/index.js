@@ -64,6 +64,9 @@ $(function(){
     $('.yuan').on('mouseleave',function(){
         yuanT=setInterval(moveYuan,100);
     });
+    $('.yuan').on('click',function(){
+        $('body').animate({'scrollTop':1*660},800);
+    });
     /////////////////////////文字效果//////////////
     setInterval(function(){
         $('.nr-inner1 .wz').toggleClass('active');
@@ -129,19 +132,19 @@ $(function(){
         $(design.eq(index).children('a')).removeClass('active');
         index=next;
     });
-    $('.shade-r').on('click',function(){
-        designMove();
-    });
-    $('.shade').on('click',function(){
-        next--;
-        if(next<0){next=design.length-1;}
-        design.eq(next).css('left',2*designW);
-        design.eq(index).animate({'left':0*designW},1000);
-        design.eq(next).animate({'left':1*designW},1000);
-        $(design.eq(next).children('a')).addClass('active');
-        $(design.eq(index).children('a')).removeClass('active');
-        index=next;
-    });
+    // $('.shade-r').on('click',function(){
+    //     $('.shade-r a').addClass('active')
+    // });
+    // $('.shade').on('click',function(){
+    //     next--;
+    //     if(next<0){next=design.length-1;}
+    //     design.eq(next).css('left',2*designW);
+    //     design.eq(index).animate({'left':0*designW},1000);
+    //     design.eq(next).animate({'left':1*designW},1000);
+    //     $(design.eq(next).children('a')).addClass('active');
+    //     $(design.eq(index).children('a')).removeClass('active');
+    //     index=next;
+    // });
     $('.li-box').on('mouseenter',function(){
         $('.btn').addClass('active');
         clearInterval(designT);
@@ -179,23 +182,23 @@ $(function(){
     }
     // for(var i=0;i<5;i++){
     //     $('.nr-inner a').eq(i).on('click',function(){
-    //         $('body').scrollTop(i*660);
+    //         $('body').animate({'scrollTop':i*660},800);
     //     })
     // }
     $('.nr-inner a').eq(0).on('click',function(){
-        $('body').scrollTop(0*660);
+        $('body').animate({'scrollTop':0*660},800);
     });
     $('.nr-inner a').eq(1).on('click',function(){
-        $('body').scrollTop(1*660);
+        $('body').animate({'scrollTop':1*660},800);
     });
     $('.nr-inner a').eq(2).on('click',function(){
-        $('body').scrollTop(2*660);
+        $('body').animate({'scrollTop':2*660},800);
     });
     $('.nr-inner a').eq(3).on('click',function(){
-        $('body').scrollTop(3*660);
+        $('body').animate({'scrollTop':3*660},800);
     });
     $('.nr-inner a').eq(4).on('click',function(){
-        $('body').scrollTop(4*660);
+        $('body').animate({'scrollTop':4*660},800);
     })
 
 });

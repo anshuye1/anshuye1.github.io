@@ -715,6 +715,20 @@ p {
     background: url("../img/nav6.png") no-repeat center center/auto 300px; }
   .design1 .design-inner .nav7 {
     background: url("../img/nav7.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav1 {
+    background: url("../img/nav1.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav2 {
+    background: url("../img/nav2.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav3 {
+    background: url("../img/nav3.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav4 {
+    background: url("../img/nav4.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav5 {
+    background: url("../img/nav5.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav6 {
+    background: url("../img/nav6.png") no-repeat center center/auto 300px; }
+  .design1 .shade .nav7 {
+    background: url("../img/nav7.png") no-repeat center center/auto 300px; }
   .design1 ul {
     width: 100%;
     height: 500px;
@@ -775,22 +789,26 @@ p {
           transform: scale(1.5, 1.5); }
     .design1 ul .shade {
       width: 33.33%;
-      height: 100%;
+      height: 300px;
       position: absolute;
-      top: 0;
+      top: 50%;
+      margin-top: -150px;
       left: 0;
       z-index: 51; }
       .design1 ul .shade a {
-        width: 80%;
+        width: 25%;
         display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        height: 300px;
-        background: url(../img/4.jpg) no-repeat right center/auto 300px; }
+        height: 50%;
+        float: left;
+        background: black;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 150px;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); }
+        .design1 ul .shade a:hover {
+          transform: scale(1.2, 1.2); }
     .design1 ul .shade-r {
       width: 33.33%;
       height: 100%;
@@ -802,14 +820,15 @@ p {
       .design1 ul .shade-r a {
         width: 80%;
         display: block;
+        height: 50%;
+        float: left;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
-        height: 300px;
-        background: url(../img/4.jpg) no-repeat left center/auto 300px; }
+        background: url(../img/4.jpg) no-repeat center center/400px auto content-box content-box; }
 
 @media screen and (max-width: 1200px) {
   .design1 {
@@ -886,44 +905,7 @@ p {
           transform: scale(0.5, 0.5);
           transition: transform .8s ease; }
           .design1 ul li a.active {
-            transform: scale(2, 2); }
-      .design1 ul .shade {
-        width: 33.33%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 51; }
-        .design1 ul .shade a {
-          width: 60%;
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          margin: auto;
-          height: 300px;
-          background: black; }
-      .design1 ul .shade-r {
-        width: 33.33%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 100%;
-        margin-left: -33.33%;
-        z-index: 51; }
-        .design1 ul .shade-r a {
-          width: 60%;
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          margin: auto;
-          height: 300px;
-          background: black; } }
+            transform: scale(2, 2); } }
 
 .footer {
   width: 100%;
@@ -1105,3 +1087,7 @@ p {
             font-size: 24px;
             color: #ffc;
             text-shadow: 0 0 .1em, 0 0 .3em; } }
+
+@media screen and (max-width: 800px) {
+  .footer .footer-box .contact span {
+    display: none; } }

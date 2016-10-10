@@ -804,6 +804,11 @@ p{
       background: url("../img/" + $v + ".png") no-repeat center center/auto 300px;
     }
   };
+  @each $v in $works{
+    .shade .#{$v}{
+      background: url("../img/" + $v + ".png") no-repeat center center/auto 300px;
+    }
+  };
   ul{
     width:100%;
     height:500px;
@@ -859,17 +864,27 @@ p{
     }
     .shade{
       width:33.33%;
-      height:100%;
+      height:300px;
       position: absolute;
-      top:0;
+      top:50%;
+      margin-top: -150px;
       left:0;
       z-index:51;
       a{
-        width:80%;
+        width:25%;
         display: block;
-        @include center;
-        height:300px;
-        background:url(../img/4.jpg) no-repeat right center/auto 300px;
+        height:50%;
+        float: left;
+        background:black;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 150px;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+        &:hover{
+         transform: scale(1.2,1.2);
+        }
       }
     }
     .shade-r{
@@ -883,9 +898,10 @@ p{
       a{
         width:80%;
         display: block;
+        height:50%;
+        float: left;
         @include center;
-        height:300px;
-        background:url(../img/4.jpg) no-repeat left center/auto 300px;
+        background: url(../img/4.jpg) no-repeat center center/400px auto content-box content-box;
       }
     }
   }
@@ -967,37 +983,6 @@ p{
           &.active{
             transform:scale(2,2);
           }
-        }
-      }
-      .shade{
-        width:33.33%;
-        height:100%;
-        position: absolute;
-        top:0;
-        left:0;
-        z-index:51;
-        a{
-          width:60%;
-          display: block;
-          @include center;
-          height:300px;
-          background:black;
-        }
-      }
-      .shade-r{
-        width:33.33%;
-        height:100%;
-        position: absolute;
-        top:0;
-        left:100%;
-        margin-left:-33.33%;
-        z-index:51;
-        a{
-          width:60%;
-          display: block;
-          @include center;
-          height:300px;
-          background:black;
         }
       }
     }
@@ -1202,5 +1187,10 @@ p{
         }
       }
     }
+  }
+}
+@media screen and (max-width:800px) {
+  .footer .footer-box .contact span{
+    display: none;
   }
 }
