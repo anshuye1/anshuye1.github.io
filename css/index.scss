@@ -787,7 +787,7 @@ p{
   width:100%;
   height:auto;
   //background: url(../img/1121.png) no-repeat center center/100% 100% fixed;
-  background: #223555;
+  background: #034565;
 }
 .design1{
   width:1200px;
@@ -989,6 +989,9 @@ p{
 }
 //////////////////////////////中屏幕//////////////////////////////////////////////////////////////////////////////////////////
 @media screen and (max-width:1200px) {
+  .design{
+    background: #034565;
+  }
   .design1{
     width:80%;
     height:auto;
@@ -1015,12 +1018,12 @@ p{
   }
   @each $v in $works{
     .design-inner .#{$v}{
-      background: url("../img/" + $v + ".png") no-repeat center center/300px 300px;
+      background: url("../img/" + $v + ".png") no-repeat center center/400px 400px;
     }
   };
   @each $v in $works1{
     .works1 .#{$v}{
-      background: url("../img/" + $v + ".png") no-repeat center center/300px 300px;
+      background: url("../img/" + $v + ".png") no-repeat center center/400px 400px;
     }
   };
   .design-box{
@@ -1088,27 +1091,29 @@ p{
   .works1{
     display: block;
     width:100%;
-    height:2000px;
+    height:3600px;
     div{
-      width:50%;
-      height:300px;
-      float: left;
+      width:100%;
+      height:500px;
+      position: relative;
+      margin:20px auto;
       a{
-        width:280px;
+        position: absolute;
+        left:50%;
+        margin-left:-240px;
+        width:480px;
         display: block;
-        height:280px;
-        margin: 15px;
+        height:480px;
         color: #fff;
         font-size: 24px;
         text-align: center;
-        line-height: 200px;
         box-sizing: border-box;
         box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
       }
       span{
+        line-height: 40px;
         font-size:24px;
         text-align: center;
-        background: rgba(0,0,0,0.5);
         display: block;
         width:100%;
         height:100%;
@@ -1117,12 +1122,13 @@ p{
         box-sizing: border-box;
         cursor: pointer;
         margin-right:10px;
-        transition: opacity .8s ease,transform .3s ease,background-color .5s ease;
+        transition: opacity .8s ease,transform .3s ease,background-color .5s ease,line-height .4s ease;
         background-blend-mode: luminosity  ;
         &:hover{
           transform: rotate3d(0,0,1,360deg);
           background: hsl(600, 50%, 50%);
           opacity:0.5;
+          line-height: 200px;
         }
       }
     }
