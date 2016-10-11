@@ -899,10 +899,13 @@ p {
         background: #4040bf;
         opacity: 0.5; }
 
-@media screen and (max-width: 900px) {
+.works1 {
+  display: none; }
+
+@media screen and (max-width: 1200px) {
   .design1 {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin: 0 auto; }
     .design1 h1 {
       width: 100%;
@@ -931,24 +934,24 @@ p {
     background: url("../img/nav66.png") no-repeat center center/300px 300px; }
   .design-inner .nav7 {
     background: url("../img/nav7.png") no-repeat center center/300px 300px; }
-  .shade li .nav1 {
+  .works1 .nav1 {
     background: url("../img/nav1.png") no-repeat center center/300px 300px; }
-  .shade li .nav2 {
+  .works1 .nav2 {
     background: url("../img/nav2.png") no-repeat center center/300px 300px; }
-  .shade li .nav3 {
+  .works1 .nav3 {
     background: url("../img/nav3.png") no-repeat center center/300px 300px; }
-  .shade li .nav4 {
+  .works1 .nav4 {
     background: url("../img/nav4.png") no-repeat center center/300px 300px; }
-  .shade li .nav5 {
+  .works1 .nav5 {
     background: url("../img/nav5.png") no-repeat center center/300px 300px; }
-  .shade li .nav6 {
+  .works1 .nav6 {
     background: url("../img/nav6.png") no-repeat center center/300px 300px; }
-  .shade li .nav7 {
+  .works1 .nav7 {
     background: url("../img/nav7.png") no-repeat center center/300px 300px; }
   .design-box {
-    display: none;
     width: 100%;
     height: auto;
+    overflow: hidden;
     position: relative; }
     .design-box .btn {
       position: absolute;
@@ -1005,68 +1008,27 @@ p {
         .design-box li a.active {
           transform: scale(1, 1); }
   .works {
+    display: none; }
+  .works1 {
+    display: block;
     width: 100%;
-    height: 2200px; }
-    .works .shade0 {
-      display: none;
-      width: 100%;
-      height: 100px;
-      box-sizing: border-box;
-      padding: 30px 0 0; }
-      .works .shade0 span {
-        color: #fff;
-        font-size: 16px;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.5);
-        border-radius: 4px;
-        display: block;
-        width: 90px;
-        padding: 10px 10px;
-        height: 40px;
-        float: left;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin-right: 10px;
-        display: none; }
-        .works .shade0 span.active {
-          background: rgba(0, 0, 255, 0.8); }
-    .works .shade {
-      width: 100%;
-      height: 2000px;
-      z-index: 51;
-      transition: height .8s ease;
-      background: red;
-      top: 0; }
-      .works .shade li {
-        width: 100%;
-        height: 300px;
-        position: absolute;
-        left: 50%;
-        margin-left: -150px;
-        transition: transform .8s ease;
-        transform: scale(0, 0); }
-        .works .shade li.active {
-          transform: scale(1, 1); }
-        .works .shade li div {
-          width: 100vh;
-          height: 100vh; }
-      .works .shade .yt, .works .shade .yx, .works .shade .yy {
-        width: 300px;
-        height: 300px;
-        float: left; }
-      .works .shade a {
+    height: 2000px; }
+    .works1 div {
+      width: 50%;
+      height: 300px;
+      float: left; }
+      .works1 div a {
         width: 280px;
         display: block;
         height: 280px;
         margin: 15px;
-        float: left;
         color: #fff;
         font-size: 24px;
         text-align: center;
         line-height: 200px;
         box-sizing: border-box;
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); }
-      .works .shade span {
+      .works1 div span {
         font-size: 24px;
         text-align: center;
         background: rgba(0, 0, 0, 0.5);
@@ -1080,7 +1042,7 @@ p {
         margin-right: 10px;
         transition: opacity .8s ease,transform .3s ease,background-color .5s ease;
         background-blend-mode: luminosity; }
-        .works .shade span:hover {
+        .works1 div span:hover {
           transform: rotate3d(0, 0, 1, 360deg);
           background: #4040bf;
           opacity: 0.5; } }

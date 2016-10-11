@@ -984,12 +984,14 @@ p{
       }
     }
   }
-
+.works1{
+  display: none;
+}
 //////////////////////////////中屏幕//////////////////////////////////////////////////////////////////////////////////////////
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
   .design1{
     width:80%;
-    height:100%;
+    height:auto;
     margin:0 auto;
     h1{
       width:100%;
@@ -1017,14 +1019,14 @@ p{
     }
   };
   @each $v in $works1{
-    .shade li .#{$v}{
+    .works1 .#{$v}{
       background: url("../img/" + $v + ".png") no-repeat center center/300px 300px;
     }
   };
   .design-box{
-    display: none;
     width:100%;
     height:auto;
+    overflow: hidden;
     position: relative;
     .btn{
       @include center;
@@ -1081,72 +1083,21 @@ p{
     }
   }
   .works{
+    display: none;
+  }
+  .works1{
+    display: block;
     width:100%;
-    height:2200px;
-    .shade0{
-      display: none;
-      width:100%;
-      height:100px;
-      box-sizing: border-box;
-      padding: 30px 0 0;
-      span{
-        color: #fff;
-        font-size:16px;
-        text-align: center;
-        background: rgba(0,0,0,0.5);
-        border-radius: 4px;
-        display: block;
-        width:90px;
-        padding:10px 10px;
-        height:40px;
-        float: left;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin-right:10px;
-        display: none;
-        &.active{
-          background:rgba(0,0,255,0.8);
-        }
-      }
-    }
-    .shade{
-      width:100%;
-      height:2000px;
-      z-index:51;
-      transition: height .8s ease;
-      //box-shadow: 0 0 50vmax rgba(0,0,0,0.9);
-      background: red;
-      top:0;
-      //&.active{
-      //  height:600px;
-      //}
-      li{
-        width:100%;
-        height:300px;
-        position: absolute;
-        left:50%;
-        margin-left:-150px;
-        transition:transform .8s ease;
-        transform: scale(0,0);
-        &.active{
-          transform: scale(1,1);
-        }
-        div{
-          width:100vh;
-          height:100vh;
-        }
-      }
-      .yt,.yx,.yy{
-        width:300px;
-        height:300px;
-        float: left;
-      }
+    height:2000px;
+    div{
+      width:50%;
+      height:300px;
+      float: left;
       a{
         width:280px;
         display: block;
         height:280px;
         margin: 15px;
-        float: left;
         color: #fff;
         font-size: 24px;
         text-align: center;
