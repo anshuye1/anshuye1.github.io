@@ -14,14 +14,15 @@ a {
 .light-box{
   width:100%;
   height:670px;
-  background:black;
+  background:#000;
   overflow:hidden;
+  position: relative;
   .light{
     width:300px;
     height:300px;
     border-radius:50%;
-    box-shadow:0 0 50px 5px white;
-    background:url(../img/bg3.jpg) no-repeat center center content-box fixed;
+    box-shadow:0 0 100px 20px white;
+    background:url(../img/bg3.jpg) no-repeat center center/100% 100% fixed;
     position:absolute;
     left:5px;
     top:5px;
@@ -160,7 +161,7 @@ a {
       height: 300px;
       border-radius: 50%;
       box-shadow: 0 0 50px 5px white;
-      background: url(../img/bg3.jpg) no-repeat center center content-box fixed;
+      background: url(../img/phone1.jpg) no-repeat center center content-box fixed;
       position: absolute;
       left: 5px;
       top: 5px;
@@ -174,7 +175,7 @@ a {
     display: block;
     width:100%;
     height:100%;
-    background:url(../img/bg3.jpg) no-repeat center center;
+    background:url(../img/phone1.jpg) no-repeat center center;
     .nr-inner{
       width:100%;
       height:60px;
@@ -215,7 +216,7 @@ a {
     }
     .nr-inner1{
       width:100%;
-      height:400px;
+      height:100%;
       position: absolute;
       top:0;
       left:0;
@@ -283,7 +284,7 @@ a {
     display: block;
     width:100%;
     height:100%;
-    background:url(../img/bg3.jpg) no-repeat center center;
+    background:url(../img/phone1.jpg) no-repeat center center;
     .nr-inner{
       width:100%;
       height:60px;
@@ -431,14 +432,15 @@ a {
 ////////////////////////////////////////////关于我///////////////////////////////
 .aboutMe0{
   width:100%;
-  height:660px;
+  height:680px;
   background: #000;
 }
 .aboutMe{
   width:100%;
   height:100%;
-  background: url(../img/2.jpg) no-repeat center center;
   position: relative;
+  //background: url(../img/1121.png) no-repeat center center/100% 100% fixed;
+  background: #2d4569;
   h1{
     width:100%;
     height:80px;
@@ -472,7 +474,7 @@ $nr:(
   border-radius:8px;
   overflow: hidden;
   @include center;
-  top:-8%;
+  top:-80px;
   .aboutMe-inner{
     width:25%;
     height:100%;
@@ -562,12 +564,9 @@ $nr:(
 @media screen and (max-width:1200px){
   .aboutMe0{
     width:100%;
-    height:850px;
+    height:1000px;
     background: #000;
     overflow: hidden;
-  }
-  .aboutMe{
-    height:850px;
   }
   .aboutMe-box{
     width:80%;
@@ -579,7 +578,8 @@ $nr:(
       border:1px solid #000;
       .aboutMe-inner{
         p{
-          font-size:24px;
+          font-size:34px;
+          height:auto;
         }
       }
     }
@@ -587,19 +587,32 @@ $nr:(
   .me{
     width:80%;
     border: 10px solid hsla(0,0%,100%,.1);
-    box-sizing: border-box;
+    height:auto;
+    margin-bottom:10px;
     p{
-      font-size:24px;
+      font-size:28px;
+      height:auto;
     }
     .me-bg span{
       display: none;
     }
   }
 }
-@media screen and (max-width:800px){
+////////////////////////////////////////////////////////小屏幕///////////////////////////////////
+@media screen and (max-width:857px){
+  .aboutMe0{
+    width:100%;
+    height:1200px;
+    background: #000;
+    overflow: hidden;
+  }
+  .aboutMe{
+    height:1200px;
+  }
   .aboutMe-box{
     width:80%;
     height:400px;
+    top:-260px;
     .aboutMe-inner{
       width:100%;
       height:25%;
@@ -631,7 +644,7 @@ $nr:(
         text-shadow: 0 0 1px black, 0 0 1px black,
         0 0 1px black, 0 0 1px black,
         0 0 1px black, 0 0 1px black;
-        font-size:24px;
+        font-size:34px;
         cursor: pointer;
         float:left;
         &:hover{
@@ -642,10 +655,11 @@ $nr:(
   }
   .me{
     width:80%;
+    height:auto;
     border: 10px solid hsla(0,0%,100%,.1);
-    box-sizing: border-box;
     p{
-      font-size:24px;
+      font-size:34px;
+      height:auto;
     }
     .me-bg span{
       display: none;
@@ -655,13 +669,13 @@ $nr:(
 ///////////////////////////////////////////////////////skill//////////////////////////////////////////////////
 .skill{
   width:100%;
-  height:660px;
+  height:680px;
   background:#c7d8e2;
 }
 .skill-box {
   width: 100%;
   height: 100%;
-  background: url(../img/bg3.jpg) no-repeat center center;
+  background: url(../img/1121.png) no-repeat center center/100% 100% fixed;
   .skill-inner {
     width: 100%;
     height: 100%;
@@ -676,15 +690,17 @@ $nr:(
     color: #162133;
     font-size:30px;
   }
-  p{
-    width: 100%;
-    height:60px;
-    line-height: 30px;
-    color: #162133;
-    font-size:14px;
-    text-align: center;
-    font-weight:600;
-  }
+.skill-inner p{
+  width: 100%;
+  height:60px;
+  padding: 0 20px;
+  box-sizing:border-box;
+  line-height: 30px;
+  color: #c7d8e2;
+  font-size:20px;
+  text-align: center;
+  font-weight:600;
+}
   .skill-nr{
     width:1200px;
     height:400px;
@@ -739,7 +755,7 @@ $skill:(
     background: url("../img/" + $v + ".png") no-repeat center center;
   }
 };
-//////////////////////////////中屏幕
+//////////////////////////////中屏幕////////////////////////////////////////////////////////////////////
 @media screen and (max-width:1200px) {
   .skill {
     width: 100%;
@@ -769,12 +785,13 @@ p{
 ///////////////////////////////////////////////////////作品展示////////////////////////////////////////////
 .design{
   width:100%;
-  height:660px;
-  background:#c7d8e2;
+  height:auto;
+  //background: url(../img/1121.png) no-repeat center center/100% 100% fixed;
+  background: #223555;
 }
 .design1{
   width:1200px;
-  height:100%;
+  height:auto;
   margin:0 auto;
   //background:url(../img/skills-bg.jpg) no-repeat center center;
   h1{
@@ -796,22 +813,33 @@ p{
       font-size:36px;
     }
   }
+  //最后bottom间距
+  &::after{
+    content: '';
+    width:100%;
+    height:50px;
+    display: block;
+  }
+}
   $works:(
+          "nav11","nav2","nav3","nav4","nav5","nav66","nav7"
+  );
+  $works1:(
           "nav1","nav2","nav3","nav4","nav5","nav6","nav7"
   );
   @each $v in $works{
     .design-inner .#{$v}{
-      background: url("../img/" + $v + ".png") no-repeat center center/auto 300px;
+      background: url("../img/" + $v + ".png") no-repeat center center border-box content-box;
     }
   };
-  @each $v in $works{
-    .shade .#{$v}{
-      background: url("../img/" + $v + ".png") no-repeat center center/auto 300px;
+  @each $v in $works1{
+    .shade li .#{$v}{
+      background: url("../img/" + $v + ".png") no-repeat center center border-box content-box;
     }
   };
-  ul{
+  .design-box{
     width:100%;
-    height:500px;
+    height:auto;
     overflow: hidden;
     position: relative;
     .btn{
@@ -836,83 +864,133 @@ p{
       }
     }
     .li-box{
-      width:66.66%;
-      height:100%;
-      top:0;
-      @include left-right;
-      overflow: hidden;
+      width:100%;
+      height:200px;
+      margin:0 auto;
+      background:rgba(0,0,0,0.2);
     }
     li{
       width:33.33%;
       height:100%;
       position: absolute;
       top:0;
-      left:0;
+      left:-500px;
+      background-blend-mode: luminosity;
+      transition:background-color .8s ease,transform .5s ease;
+      &.active{
+        transform:rotate3d(1,0,0,360deg);
+        background: rgba(0,0,0,0.5);
+      }
       a{
         width:90%;
         display: block;
         @include center;
-        height:300px;
-        background:url(../img/nav1.png) no-repeat center center content-box content-box;
+        height:100%;
+        background:url(../img/nav1.png) no-repeat center center/100px 100px;
         z-index: 50;
         transform:scale(0.5,0.5);
         transition: transform .8s ease;
         &.active{
-          transform:scale(1.5,1.5);
+          transform:scale(1,1);
+        }
+      }
+    }
+  }
+  .works{
+    width:100%;
+    height:auto;
+    .shade0{
+      width:100%;
+      height:100px;
+      box-sizing: border-box;
+      padding: 30px 0 0;
+      span{
+        color: #fff;
+        font-size:16px;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        border-radius: 4px;
+        display: block;
+        width:90px;
+        padding:10px 10px;
+        height:40px;
+        float: left;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin-right:10px;
+        &.active{
+          background:rgba(0,0,255,0.8);
         }
       }
     }
     .shade{
-      width:33.33%;
+      width:100%;
       height:300px;
-      position: absolute;
-      top:50%;
-      margin-top: -150px;
-      left:0;
       z-index:51;
-      a{
-        width:25%;
-        display: block;
-        height:50%;
+      position: relative;
+      transition: height .8s ease;
+      &.active{
+        height:600px;
+      }
+      li{
+        width:100%;
+        height:300px;
+        position: absolute;
+        top:0;
+        left:0;
+        transition:transform .8s ease;
+        transform: scale(0,0);
+        &.active{
+          transform: scale(1,1);
+        }
+      }
+      .yt,.yx,.yy{
+        width:300px;
+        height:300px;
         float: left;
-        background:black;
+      }
+      a{
+        width:280px;
+        display: block;
+        height:280px;
+        margin: 15px;
+        float: left;
         color: #fff;
         font-size: 24px;
         text-align: center;
-        line-height: 150px;
+        line-height: 200px;
         box-sizing: border-box;
         box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+      }
+      span{
+        font-size:24px;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        display: block;
+        width:100%;
+        height:100%;
+        float: left;
+        z-index: 60;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin-right:10px;
+        transition: opacity .8s ease,transform .3s ease,background-color .5s ease;
+        background-blend-mode: luminosity  ;
         &:hover{
-         transform: scale(1.2,1.2);
+          transform: rotate3d(0,0,1,360deg);
+          background: hsl(600, 50%, 50%);
+          opacity:0.5;
         }
       }
     }
-    .shade-r{
-      width:33.33%;
-      height:100%;
-      position: absolute;
-      top:0;
-      left:100%;
-      margin-left:-33.33%;
-      z-index:51;
-      a{
-        width:80%;
-        display: block;
-        height:50%;
-        float: left;
-        @include center;
-        background: url(../img/4.jpg) no-repeat center center/400px auto content-box content-box;
-      }
-    }
   }
-}
-//////////////////////////////中屏幕
-@media screen and (max-width:1200px) {
+
+//////////////////////////////中屏幕//////////////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width:900px) {
   .design1{
     width:80%;
     height:100%;
     margin:0 auto;
-    //background:url(../img/skills-bg.jpg) no-repeat center center;
     h1{
       width:100%;
       height:100px;
@@ -932,63 +1010,174 @@ p{
         font-size:36px;
       }
     }
-    ul{
+  }
+  @each $v in $works{
+    .design-inner .#{$v}{
+      background: url("../img/" + $v + ".png") no-repeat center center/300px 300px;
+    }
+  };
+  @each $v in $works1{
+    .shade li .#{$v}{
+      background: url("../img/" + $v + ".png") no-repeat center center/300px 300px;
+    }
+  };
+  .design-box{
+    display: none;
+    width:100%;
+    height:auto;
+    position: relative;
+    .btn{
+      @include center;
+      width:50%;
+      height:0;
+      z-index: 100;
+      opacity: 0;
+      transition:opacity .8s ease;
+      &.active{
+        opacity: 1;
+      }
+      .left,.right{
+        width:54px;
+        height:54px;
+        float: left;
+        background: url(../img/btnPrevious.png) no-repeat center center;
+      }
+      .right{
+        float: right;
+        background: url(../img/btnNext.png) no-repeat center center;
+      }
+    }
+    .li-box{
       width:100%;
-      height:500px;
-      overflow: hidden;
-      position: relative;
-      .btn{
+      height:400px;
+      margin:0 auto;
+      background:rgba(0,0,0,0.2);
+    }
+    li{
+      width:33.33%;
+      height:100%;
+      position: absolute;
+      top:0;
+      left:-500px;
+      background-blend-mode: luminosity;
+      transition:background-color .8s ease,transform .5s ease;
+      &.active{
+        transform:rotate3d(1,0,0,360deg);
+        background: rgba(0,0,0,0.5);
+      }
+      a{
+        width:90%;
+        display: block;
         @include center;
-        width:50%;
-        height:0;
-        z-index: 100;
-        opacity: 0;
-        transition:opacity .8s ease;
+        height:100%;
+        background:url(../img/nav1.png) no-repeat center center/100px 100px;
+        z-index: 50;
+        transform:scale(0.5,0.5);
+        transition: transform .8s ease;
         &.active{
-          opacity: 1;
-        }
-        .left,.right{
-          width:54px;
-          height:54px;
-          float: left;
-          background: url(../img/btnPrevious.png) no-repeat center center;
-        }
-        .right{
-          float: right;
-          background: url(../img/btnNext.png) no-repeat center center;
+          transform:scale(1,1);
         }
       }
-      .li-box{
+    }
+  }
+  .works{
+    width:100%;
+    height:2200px;
+    .shade0{
+      display: none;
+      width:100%;
+      height:100px;
+      box-sizing: border-box;
+      padding: 30px 0 0;
+      span{
+        color: #fff;
+        font-size:16px;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        border-radius: 4px;
+        display: block;
+        width:90px;
+        padding:10px 10px;
+        height:40px;
+        float: left;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin-right:10px;
+        display: none;
+        &.active{
+          background:rgba(0,0,255,0.8);
+        }
+      }
+    }
+    .shade{
+      width:100%;
+      height:2000px;
+      z-index:51;
+      transition: height .8s ease;
+      //box-shadow: 0 0 50vmax rgba(0,0,0,0.9);
+      background: red;
+      top:0;
+      //&.active{
+      //  height:600px;
+      //}
+      li{
+        width:100%;
+        height:300px;
+        position: absolute;
+        left:50%;
+        margin-left:-150px;
+        transition:transform .8s ease;
+        transform: scale(0,0);
+        &.active{
+          transform: scale(1,1);
+        }
+        div{
+          width:100vh;
+          height:100vh;
+        }
+      }
+      .yt,.yx,.yy{
+        width:300px;
+        height:300px;
+        float: left;
+      }
+      a{
+        width:280px;
+        display: block;
+        height:280px;
+        margin: 15px;
+        float: left;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 200px;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+      }
+      span{
+        font-size:24px;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        display: block;
         width:100%;
         height:100%;
-        top:0;
-        @include left-right;
-        overflow: hidden;
-      }
-      li{
-        width:33.33%;
-        height:100%;
-        position: absolute;
-        top:0;
-        left:0;
-        a{
-          width:90%;
-          display: block;
-          @include center;
-          height:300px;
-          background:url(../img/nav1.png) no-repeat center center content-box content-box;
-          z-index: 50;
-          transform:scale(0.5,0.5);
-          transition: transform .8s ease;
-          &.active{
-            transform:scale(2,2);
-          }
+        float: left;
+        z-index: 60;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin-right:10px;
+        transition: opacity .8s ease,transform .3s ease,background-color .5s ease;
+        background-blend-mode: luminosity  ;
+        &:hover{
+          transform: rotate3d(0,0,1,360deg);
+          background: hsl(600, 50%, 50%);
+          opacity:0.5;
         }
       }
     }
   }
 }
-/////////////////////////////////////////联系我////
+/////////////////////////////////////////联系我//////////////////////////////////////////////////////////////////////
 .footer{
   width:100%;
   height:200px;
@@ -1147,22 +1336,22 @@ p{
         .yx{
           background: url(../img/yx.png) no-repeat center center/60px 60px;
           transition: transform .8s ease .5s;
-          transform: translate3d(200px,0,0);
+          transform: translate3d(30px,0,0);
         }
         .wx{
           background: url(../img/wx.png) no-repeat center center/60px 60px;
-          transform: translate3d(300px,30px,0);
+          transform: translate3d(50px,100px,0);
           transition: transform .8s ease .7s;
         }
       }
       .contact{
-        width:50%;
+        width:auto;
         height:100%;
         float:left;
         a{
           display: block;
-          width:50%;
-          height:100%;
+          width:150px;
+          height:150px;
           background: url(../img/me.png) no-repeat center center/150px 150px;
           float: left;
         }
